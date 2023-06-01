@@ -1,0 +1,208 @@
+body {
+  font-family: "Montserrat, sans-serif";
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+
+  font-weight: bold;
+}
+
+.big-heading{
+
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+  
+}
+
+p {
+  color: #8f8f8f;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Colour sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+ }
+
+ .white-section{
+  background-color: #fff;
+ }
+/******* title ******/
+
+#title .navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 5% 15% 7%;
+}
+
+.title-img {
+width: 23%;
+transform: rotate(25deg);
+position: absolute;
+} 
+
+/************Navbar************/
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: thin;
+}
+
+/******* Download button *********/
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/******* features *******/
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index:1;
+}
+
+.feature-head{
+  font-size: 1.5rem;
+}
+
+.feature-i {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.feature-i:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 3%;
+}
+
+/********* testimonial-section *********/
+
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.press-img {
+  width: 12%;
+  margin: 0 3%;
+}
+
+/****** Pricing *******/
+
+#pricing {
+  padding: 5% 0;
+}
+
+.card-head-text{
+font-size: 1.5rem;
+}
+
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.pricing-header {
+  text-align: center;
+}
+
+.pricing-card {
+  padding: 2%;
+}
+
+
+/* Call to Action */
+#cta{
+   text-align:center ;
+    padding: 7% 15%;
+ }
+
+
+
+/* footer section */
+
+#footer{
+width:50%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 3% 0;
+
+}
+
+.icon-m{
+    margin:20px;
+    color: black;
+}
+
+.footer-icon{
+    margin-bottom: 2%;
+}
+
+@media (max-width:990px)  {
+
+  #title{
+      text-align: center;
+  }
+
+
+  .title-img {
+      width: 40%;
+      transform: rotate(0);
+      position: static;
+      }   
+  
+}
